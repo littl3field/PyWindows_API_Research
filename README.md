@@ -1,2 +1,3 @@
-# Clipboard_Bitcoin_Replace
-Quick script that replaces a copied Bitcoin address to a different one, on system clipboard. 
+#Python malware
+Since Windows will be adding python to Windows, this repo will contain some python based malware I'm playing around with. This is purely for research purposes and should not be used for harm. 
+
