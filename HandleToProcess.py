@@ -5,7 +5,7 @@ k_handle = ctypes.WinDLL("Kernel32.dll")
 PROCESS_ALL_ACCESS = (0x000F0000 | 0x00100000 | 0xFFF)
 dwDesiredAccess = PROCESS_ALL_ACCESS
 bInheritHandle = False
-dwProcessId = 0x60C
+dwProcessId = 0x60C #change hex of PID
 Hex_string = str(dwProcessId)
 
 response = k_handle.OpenProcess(dwDesiredAccess, bInheritHandle,dwProcessId)
