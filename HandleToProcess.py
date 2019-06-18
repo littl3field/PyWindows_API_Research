@@ -19,4 +19,4 @@ if error != 0:
 if response <= 0:
     print("Handle was not created")
 else:
-    print("Handle was created to:", str(i))
+    print("Handle was created for PID:", str(i))
