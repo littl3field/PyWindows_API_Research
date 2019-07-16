@@ -1,4 +1,4 @@
-mport ctypes
+import ctypes
 from ctypes.wintypes import DWORD
 
 # Grab a handle to kernel32.dll & USer32.dll
