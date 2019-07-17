@@ -131,7 +131,7 @@ else:
 
 if pfResult:
     print("[INFO] Privilege SEDebugPrivilege is Enabled...")
-    requiredPrivileges.Privileges.Attributes = SE_PRIVILEGE_DISABLED  #
+    requiredPrivileges.Privileges.Attributes = SE_PRIVILEGE_DISABLED  
 else:
     print("[INFO] Privilege SEDebugPrivilege is NOT Enabled...")
     requiredPrivileges.Privileges.Attributes = SE_PRIVILEGE_ENABLED 
