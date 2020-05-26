@@ -1,8 +1,5 @@
 https://docs.microsoft.com/en-gb/windows/desktop/SecAuthZ/access-rights-for-access-token-objects
 
-Microsoft doesn't give you the Token Access Right values like other API calls.
-Here are the values:
-
 STANDARD_RIGHTS_REQUIRED = 0x000F0000
 STANDARD_RIGHTS_READ = 0x00020000
 TOKEN_ASSIGN_PRIMARY = 0x0001
